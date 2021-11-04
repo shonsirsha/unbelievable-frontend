@@ -26,8 +26,8 @@ export default async function register(req, res) {
 				"Set-Cookie",
 				cookie.serialize("token", data.jwt, {
 					httpOnly: true,
-					secure: process.env.NODE_ENV === "development" ? true : false,
-					maxAge: 60 * 60 * 7,
+					secure: process.env.NODE_ENV === "development" ? false : true,
+					maxAge: 900,
 					sameSite: "strict",
 					path: "/",
 				})
