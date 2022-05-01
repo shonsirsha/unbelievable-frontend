@@ -4,11 +4,13 @@ This is the repository for https://unbelievable.id.
 
 Unbelievable.id is an on-demand video streaming platform for different courses, similar to udemy, coursera, and the likes in the form of web application. It's built using NextJS (React).
 
-## Simplified System / Architecture Diagram
+## Architecture Visualisation
 
-![](Diagram.png "Title")
+![](Diagram.png "Architecture Visualisation")
 
-In the diagram above, this application is the **"Frontend NextJS (React)"**
+In the diagram above, this application is the **"Frontend NextJS (React)"**. Unannotated arrows are the appropriate "requests" and "responses".
+
+The requests could be an image url, video url, etc and the responses could be an image, hls, a full webpage, etc. The requests and responses depend on which two services communicating with one another.
 
 ## Local Development
 
