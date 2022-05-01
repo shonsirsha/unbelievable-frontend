@@ -8,9 +8,9 @@ Unbelievable.id is an on-demand video streaming platform for different courses, 
 
 ![](Diagram.png "Architecture Visualisation")
 
-In the diagram above, this application is the **"Frontend NextJS (React)"**. Unannotated arrows are the appropriate "requests" and "responses".
+In the diagram above, this application is the **"Frontend NextJS (React)"**. Unannotated arrows are the appropriate "requests" and "responses" depending on which two services communicating with one another.
 
-The requests could be an image url, video url, etc and the responses could be an image, hls, a full webpage, etc. The requests and responses depend on which two services communicating with one another.
+For example, a request could be an image url, or video url. A response could be an image, hls, or a full webpage.
 
 ## Local Development
 
