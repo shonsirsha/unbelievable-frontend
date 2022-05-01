@@ -1,7 +1,5 @@
 export const API_URL = process.env.NEXT_PUBLIC_API_URL;
 export const NEXT_URL = process.env.NEXT_PUBLIC_FRONTEND_URL;
-export const USE_FALLBACK_VID =
-	process.env.NEXT_PUBLIC_FALLBACK == "true" ? true : false;
 export const BUNNY_STREAM_PREFIX_URL =
 	process.env.NEXT_PUBLIC_BUNNY_STREAM_PREFIX_URL;
 export const MAINTENANCE =
